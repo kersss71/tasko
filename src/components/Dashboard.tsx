@@ -5,6 +5,7 @@ import { RootState } from "../store";
 import TaskBoard from "./TaskBoard";
 import Analytics from "./Analytics";
 
+
 const Dashboard: React.FC = () => {
   const tasks = useSelector((state: RootState) => state.tasks.items);
   const deals = useSelector((state: RootState) => state.deals.items);
